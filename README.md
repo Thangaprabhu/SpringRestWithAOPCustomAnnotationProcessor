@@ -13,19 +13,6 @@ So when the request comes to this getUser Method of controller, "LoggingAspect.j
 Around around annotation is executed. 
 
 Dependency required for AOP are below...
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-aop</artifactId>
-			<version>${springframework.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.aspectj</groupId>
-			<artifactId>aspectjrt</artifactId>
-			<version>1.8.2</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
-		<dependency>
-			<groupId>org.aspectj</groupId>
-			<artifactId>aspectjweaver</artifactId>
-			<version>1.8.2</version>
-		</dependency>
+			1) spring-aop
+			2) aspectjrt
+			3) aspectjweaver
